@@ -1137,7 +1137,7 @@ Nothing else.</p>
   <h2>5.2.1</h2>
   
   <h5>site.Menus.main</h5>
-  <p>[0xc000880700 0xc0008807e0]</p>
+  <p>[0xc000881420 0xc0008816c0]</p>
 
   <h5>range site.Menus.main</h5>
   
@@ -1147,11 +1147,11 @@ Nothing else.</p>
   
 
   <h5>site.Menus</h5>
-  <p>map[main:[0xc000880700 0xc0008807e0]]</p>
+  <p>map[main:[0xc000881420 0xc0008816c0]]</p>
 
   <h5>range site.Menus</h5>
   
-    <p>[0xc000880700 0xc0008807e0]</p>
+    <p>[0xc000881420 0xc0008816c0]</p>
   
 
   <h5>.Permalink</h5>
@@ -1622,49 +1622,6 @@ Nothing else.</p>
 
 
 
-
-  <script defer>
-    document.querySelectorAll('pre > code').forEach((codeblock) => {
-      const container = codeblock.parentNode.parentNode;
-      const copybutton = document.createElement('button');
-      copybutton.classList.add('copy-code');
-      copybutton.innerText = 'copy';
-      function copyingDone() {
-        copybutton.innerText = 'copied!';
-        setTimeout(() => {
-          copybutton.innerText = 'copy';
-        }, 2000);
-      }
-      copybutton.addEventListener('click', (cb) => {
-        if ('clipboard' in navigator) {
-          navigator.clipboard.writeText(codeblock.textContent);
-          copyingDone();
-          return;
-        }
-        const range = document.createRange();
-        range.selectNodeContents(codeblock);
-        const selection = window.getSelection();
-        selection.removeAllRanges();
-        selection.addRange(range);
-        try {
-          document.execCommand('copy');
-          copyingDone();
-        } catch (e) { };
-        selection.removeRange(range);
-      });
-      if (container.classList.contains("highlight")) {
-        container.prepend(copybutton);
-      } else if (container.parentNode.firstChild == container) {
-        
-      } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
-        
-        codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.prepend(copybutton);
-      } else {
-        
-        codeblock.parentNode.prepend(copybutton);
-      }
-    });
-  </script>
 
 </footer>
     </main>

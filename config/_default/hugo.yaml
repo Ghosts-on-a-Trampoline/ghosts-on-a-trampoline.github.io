@@ -19,9 +19,9 @@ menus:
 params:
   home:
     title: Ghosts on a Trampoline
-    tagline: la musica de ghosts
+    tagline: Ghosts on a Trampoline
     blurb: | 
-      Music
+      Ghosts on a Trampoline
   mainSections:
     section: Section
 
