@@ -1,0 +1,52 @@
+{{- define "main" -}} 
+{{ $home := site.Params.Home }}
+<article
+  class="layout panes basic-single-pane"
+  id="home-page">
+  <section class="layout pane">
+    {{/* Home page header */}}
+    <section id="home-header">
+      <span class="site-id">
+        {{/* Site title */}}
+        <h1>{{ $home.title | default site.Title | markdownify }}</h1>
+      </span>
+
+      {{/* Site tagline */}} 
+      {{ with $home.tagline }}
+        <span class="tagline title-large">{{ . | markdownify }}</span>
+      {{ end }}
+    </section>
+
+    {{/* Site welcome blurb */}} 
+    {{ with $home.blurb }}
+      <section id="home-blurb">
+        <h2>We are Ghosts on a Trampoline</h2>
+        <span class="blurb title-medium">{{ . }}</span>
+      </section>
+    {{ end }} 
+    
+    {{/* Home page content */}} 
+    {{ with .Content }}
+      <div id="post-content">
+        <div class="home-page-content">{{ . }}</div>
+      </div>
+    {{ end }} 
+    
+    {{/* Home page buttons */}}
+    <section class="home-buttons-container">
+      {{- partialCached "homepage-buttons.html" $home -}}
+    </section>
+  </section>
+
+  <section>
+    <h2>All pages</h2>
+    {{ range .Pages }}
+      <p>
+        <a href="{{ .Permalink }}">
+          {{ .Title }}
+        </a>
+      </p>
+    {{ end }}
+  </section>
+</article>
+{{- end -}}

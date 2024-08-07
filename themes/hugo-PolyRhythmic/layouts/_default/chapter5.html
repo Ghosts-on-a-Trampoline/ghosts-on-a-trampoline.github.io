@@ -1,3 +1,4 @@
+{{ define "main" }}
 <section>
   <h1>5.1</h1>
   
@@ -265,9 +266,36 @@
   <hr>
   <h2>5.3.1</h2>
 
+  <h5>.Params</h5>
+  {{ with .Params }}
+    <p>{{ . }}</p>
+  {{ end }}
+
   {{/*    */}}
   <hr>
   <h2>5.3.2</h2>
+  
+  <h5>site.Data</h5>
+  <p>{{ site.Data }}</p>
+
+  <h5>readFile</h5>
+  <p>{{ readFile "data/albums.yaml" }}</p>
+
+  <h5>readFile | transform.Unmarshal</h5>
+  <p>{{ readFile "data/albums.yaml" | transform.Unmarshal }}</p>
+
+  <h5>range $i, $value := .</h5>
+  {{ with site.Data }}
+    {{ . }}
+    {{ range $i, $value := . }}
+      <p>{{ $i }}</p>
+      {{ range $value }}
+        <p>{{ . }}</p>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+
+
 </section>
 
 
@@ -279,6 +307,8 @@
   <hr>
   <h2>5.4.1</h2>
 
+  {{ $.Content }}
+
   {{/*    */}}
   <hr>
   <h2>5.4.2</h2>
@@ -287,3 +317,5 @@
   <hr>
   <h2>5.4.3</h2>
 </section>
+
+{{ end }}

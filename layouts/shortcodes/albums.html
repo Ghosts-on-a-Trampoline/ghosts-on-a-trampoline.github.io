@@ -1,0 +1,14 @@
+{{- $album := default (.Get 0) (.Get "album") -}}   
+{{- if $album -}}
+  {{- $albums := resources.GetMatch
+           "albums.csv" -}}                           
+  {{- $parsedAlbums := $albums |
+    transform.Unmarshal (dict "delimiter" ",") -}}      
+  {{- range $r := $parsedAlbums -}}                   
+    {{- if eq (index $r 0) $album -}}                 
+      Artist {{ trim (index $r 1) " " -}}                   
+      <br>
+      Year {{ trim (index $r 2) " " -}}                   
+    {{- end -}} 
+  {{- end -}} 
+{{- end -}} 

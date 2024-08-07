@@ -93,56 +93,7 @@
   href="http://localhost:1313/"
   accesskey="h" 
   title="Go to home (h)">
-  <svg 
-    class="site-icon"
-    viewBox="0 0 512 512" 
-    xmlns="http://www.w3.org/2000/svg">
-    <path 
-      class="site-icon-w"
-      d=" M142.079 24.0422
-          H223.663
-          L253.288 112.721
-          L283.37 24.0422
-          H364.954
-          L310.261 161.312
-          L336.681 220.027
-          L403.642 10
-          L502 10
-          L378.297 301.511
-          H302
-          L253.288 208.689
-          L206.343 379.425
-          H129.317
-          L10 10
-          H105.33
-          L173.527 220.027
-          L195.86 161.312
-          L142.079 24.0422Z"/>
-    <path 
-      class="site-icon-j-right"
-      d=" M302 502
-          V301.511
-          H378.297
-          L379.022 409.178
-          C379.041 411.901 379.086 414.616 379.067 417.339
-          C379.001 426.663 378.235 449.565 372.5 460.27
-          C365.471 473.895 351.339 484.523 338.903 492.153
-          C326.467 499.783 302 502 302 502Z"/>
-    <path 
-      class="site-icon-j-left"
-      d=" M283.37 502
-          V436
-          L240.157 449.616
-          C223.403 454.895 206.343 442.384 206.343 424.817
-          V396.818
-          H129.317
-          L138.281 439.964
-          C141.046 453.269 147.244 465.62 156.259 475.788
-          V475.788
-          C171.04 492.458 192.252 502 214.531 502
-          L283.37 502Z"/>
-  </svg>
-  <span class="site-id-title">Wonyoung Jang</span>
+  <span class="site-id-title">Ghosts on a Trampoline</span>
 </a>
 </section>
 
@@ -169,6 +120,26 @@
 <script defer>
   let pages = [
     
+      "\/categories\/",
+    
+      "\/categories\/general\/",
+    
+      "\/subarchetype\/song\/",
+    
+      "\/subarchetype\/",
+    
+      "\/tags\/",
+    
+      "\/tags\/unknown\/",
+    
+      "\/album\/",
+    
+      "\/album\/song\/",
+    
+      "\/songs\/",
+    
+      "\/albums\/",
+    
       "\/branchbundle\/",
     
       "\/branchbundle\/leaf1\/",
@@ -185,11 +156,11 @@
     
       "\/shortcodes\/",
     
-      "\/5_1\/",
-    
       "\/categories\/bundle\/",
     
-      "\/categories\/",
+      "\/chapter-5\/",
+    
+      "\/chapter-6\/",
     
       "\/tags\/leaf\/",
     
@@ -198,8 +169,6 @@
       "\/series\/",
     
       "\/tags\/solo-leaf\/",
-    
-      "\/tags\/",
     
   ];
   
@@ -240,8 +209,13 @@
     light_mode
   </i>
 </button>
-<button class="theme-controls">
-  <input type="checkbox" id="theme-controls"/>
+<button 
+  class="theme-controls">
+  <input 
+    type="checkbox" 
+    id="theme-controls"
+    accesskey="c"
+    title="Toggle controls (c)"/>
   <label for="theme-controls" class="component button icon">
     <i class="icon">
       palette
@@ -393,39 +367,19 @@
         <fieldset class="typography-fieldset">
           <legend class="title-large">Brand font family</legend>
           <label class="component radio">
-            <input type="radio" id="brand-raleway" name="brand-font" value="Raleway" checked>
+            <input type="radio" name="brand-font" value="Raleway" checked>
             <span>Raleway</span>
           </label>
           <label class="component radio">
-            <input type="radio" id="brand-roboto" name="brand-font" value="Roboto">
-            <span>Roboto</span>
+            <input type="radio" name="brand-font" value="Rubik">
+            <span>Rubik</span>
           </label>
           <label class="component radio">
-            <input type="radio" id="brand-times-new-roman" name="brand-font" value="Times New Roman">
-            <span>Times New Roman</span>
-          </label>
-          <label class="component radio">
-            <input type="radio" id="brand-times" name="brand-font" value="Times">
-            <span>Times</span>
-          </label>
-          <label class="component radio">
-            <input type="radio" id="brand-georgia" name="brand-font" value="Georgia">
+            <input type="radio" name="brand-font" value="Georgia">
             <span>Georgia</span>
           </label>
           <label class="component radio">
-            <input type="radio" id="brand-palatino" name="brand-font" value="Palatino">
-            <span>Palatino</span>
-          </label>
-          <label class="component radio">
-            <input type="radio" id="brand-bookman" name="brand-font" value="Bookman">
-            <span>Bookman</span>
-          </label>
-          <label class="component radio">
-            <input type="radio" id="brand-garamond" name="brand-font" value="Garamond">
-            <span>Garamond</span>
-          </label>
-          <label class="component radio">
-            <input type="radio" id="brand-century-schoolbook" name="brand-font" value="Century Schoolbook">
+            <input type="radio" name="brand-font" value="Century Schoolbook">
             <span>Century Schoolbook</span>
           </label>
         </fieldset>
@@ -438,45 +392,21 @@
         <fieldset class="typography-fieldset">
           <legend class="title-large">Plain font family</legend>
           <label class="component radio">
-            <input type="radio" id="plain-rubik" name="plain-font" value="Rubik" checked>
+            <input type="radio" name="plain-font" value="Rubik" checked>
             <span>Rubik</span>
           </label>
           <label class="component radio">
-            <input type="radio" id="plain-roboto" name="plain-font" value="Roboto">
-            <span>Roboto</span>
-          </label>
-          <label class="component radio">
-            <input type="radio" id="plain-arial" name="plain-font" value="Arial">
-            <span>Arial</span>
+            <input type="radio" name="plain-font" value="Raleway">
+            <span>Raleway</span>
           </label>
           </label>
           <label class="component radio">
-            <input type="radio" id="plain-helvetica" name="plain-font" value="Helvetica">
+            <input type="radio" name="plain-font" value="Helvetica">
             <span>Helvetica</span>
           </label>
           <label class="component radio">
-            <input type="radio" id="plain-verdana" name="plain-font" value="Verdana">
+            <input type="radio" name="plain-font" value="Verdana">
             <span>Verdana</span>
-          </label>
-          <label class="component radio">
-            <input type="radio" id="plain-tahoma" name="plain-font" value="Tahoma">
-            <span>Tahoma</span>
-          </label>
-          <label class="component radio">
-            <input type="radio" id="plain-arial-black" name="plain-font" value="Arial Black">
-            <span>Arial Black</span>
-          </label>
-          <label class="component radio">
-            <input type="radio" id="plain-comic-sans" name="plain-font" value="Comic Sans MS">
-            <span>Comic Sans MS</span>
-          </label>
-          <label class="component radio">
-            <input type="radio" id="plain-impact" name="plain-font" value="Impact">
-            <span>Impact</span>
-          </label>
-          <label class="component radio">
-            <input type="radio" id="plain-avant-garde" name="plain-font" value="Avant Garde">
-            <span>Avant Garde</span>
           </label>
         </fieldset>
 
@@ -488,23 +418,19 @@
         <fieldset class="typography-fieldset">
           <legend class="title-large">Code font family</legend>
           <label class="component radio">
-            <input type="radio" id="code-sometypemono" name="code-font" value="SomeType Mono" checked>
+            <input type="radio" name="code-font" value="SomeType Mono" checked>
             <span>SomeType Mono</span>
           </label>
           <label class="component radio">
-            <input type="radio" id="code-courier-new" name="code-font" value="Courier New">
+            <input type="radio" name="code-font" value="Courier New">
             <span>Courier New</span>
           </label>
           <label class="component radio">
-            <input type="radio" id="code-courier" name="code-font" value="Courier">
-            <span>Courier</span>
-          </label>
-          <label class="component radio">
-            <input type="radio" id="code-andale-mono" name="code-font" value="Andale Mono">
+            <input type="radio" name="code-font" value="Andale Mono">
             <span>Andale Mono</span>
           </label>
           <label class="component radio">
-            <input type="radio" id="code-consolas" name="code-font" value="Consolas">
+            <input type="radio" name="code-font" value="Consolas">
             <span>Consolas</span>
           </label>
         </fieldset>
