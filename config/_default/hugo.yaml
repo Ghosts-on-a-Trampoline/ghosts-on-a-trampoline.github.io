@@ -1,0 +1,27 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: Ghosts on a Trampoline
+theme: hugo-PolyRhythmic
+enableEmoji: true 
+minify: true
+
+markup:
+  highlight:
+    lineNos: true
+
+menus:
+  main:
+    - name: Section
+      pageRef: /section
+    - name: Subsection
+      pageRef: /section/subsection
+
+params:
+  home:
+    title: Ghosts on a Trampoline
+    tagline: la musica de ghosts
+    blurb: | 
+      Music
+  mainSections:
+    section: Section
+

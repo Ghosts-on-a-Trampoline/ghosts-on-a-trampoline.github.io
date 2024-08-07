@@ -1,0 +1,168 @@
+
+  
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>
+      
+        
+        Ghosts on a Trampoline
+      
+    </title>
+    
+    <link>
+      http://localhost:1313/
+    </link>
+
+    <description>
+      Recent content on Ghosts on a Trampoline
+    </description>
+    
+    <generator>
+      <meta name="generator" content="Hugo 0.127.0">
+    </generator>
+   
+    <language>
+      en-us
+    </language>
+    
+    
+    
+    
+    
+    
+
+    
+      <lastBuildDate>
+        Mon, 01 Jan 0001 00:00:00 +0000
+      </lastBuildDate>
+    
+      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+      <item>
+        <title>
+          
+        </title>
+
+        <link>
+          http://localhost:1313/branchbundle/leaf1/
+        </link>
+
+        <pubDate>
+          Mon, 01 Jan 0001 00:00:00 +0000
+        </pubDate>
+
+        <guid>
+          http://localhost:1313/branchbundle/leaf1/
+        </guid>
+
+        <description>
+          
+        </description>
+      </item>
+      <item>
+        <title>
+          
+        </title>
+
+        <link>
+          http://localhost:1313/branchbundle/leaf2/
+        </link>
+
+        <pubDate>
+          Mon, 01 Jan 0001 00:00:00 +0000
+        </pubDate>
+
+        <guid>
+          http://localhost:1313/branchbundle/leaf2/
+        </guid>
+
+        <description>
+          
+        </description>
+      </item>
+      <item>
+        <title>
+          
+        </title>
+
+        <link>
+          http://localhost:1313/content/
+        </link>
+
+        <pubDate>
+          Mon, 01 Jan 0001 00:00:00 +0000
+        </pubDate>
+
+        <guid>
+          http://localhost:1313/content/
+        </guid>
+
+        <description>
+          Heading 1&#xD;link&#xD;h1&#xD;Heading 2&#xD;link&#xD;h2&#xD;Heading 3&#xD;link&#xD;h3&#xD;Heading 4&#xD;link&#xD;h4&#xD;Heading 5&#xD;link&#xD;h5&#xD;Heading 6&#xD;link&#xD;h6&#xD;H1&#xD;link&#xD;h1&#xD;H2&#xD;link&#xD;h2&#xD;H3&#xD;link&#xD;h2&#xD;H4&#xD;link&#xD;h2&#xD;H5&#xD;link&#xD;h2&#xD;H6&#xD;link&#xD;h2&#xD;A blob of text&#xA;Lorem ipsum shednvustm&#xA;More than two line breaks&#xA;The next content&#xA;Single line break The next content&#xA;Normal line break&#xA;The next content
+        </description>
+      </item>
+      <item>
+        <title>
+          
+        </title>
+
+        <link>
+          http://localhost:1313/content2/
+        </link>
+
+        <pubDate>
+          Mon, 01 Jan 0001 00:00:00 +0000
+        </pubDate>
+
+        <guid>
+          http://localhost:1313/content2/
+        </guid>
+
+        <description>
+          Markdown&#xD;link&#xD;h1&#xD;I am a paragraph in markdown with line wrapping so fit in this width. I am a continuation of the first paragraph as there is no empty line before me.&#xA;I am in the second paragraph.&#xA;I am the third one. Even though there are two line breaks before me, this does not create any newline characters. After me there are two spaces before the newline character.
+        </description>
+      </item>
+      <item>
+        <title>
+          
+        </title>
+
+        <link>
+          http://localhost:1313/shortcodes/
+        </link>
+
+        <pubDate>
+          Mon, 01 Jan 0001 00:00:00 +0000
+        </pubDate>
+
+        <guid>
+          http://localhost:1313/shortcodes/
+        </guid>
+
+        <description>
+          Shortcodes&#xD;link&#xD;h2&#xD;Youtube Highlight 1080 1081 1082 1083 1084 1085 // Enjoy your work if (!tired()) { keepCoding(); } else { drinkCoffee(); } 1080 1081 1082 1083 1084 1085 1086 1087 1088 1089 &amp;lt;!-- Generated Youtube source code for video --&amp;gt; {{&amp;lt; youtube nLAVanlu5js &amp;gt;}} &amp;lt;!-- Output --&amp;gt; &amp;lt;div style=&amp;#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&amp;#34;&amp;gt; &amp;lt;iframe allow=&amp;#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&amp;#34; allowfullscreen=&amp;#34;allowfullscreen&amp;#34; loading=&amp;#34;eager&amp;#34; referrerpolicy=&amp;#34;strict-origin-when-cross-origin&amp;#34; src=&amp;#34;https://www.
+        </description>
+      </item>
+      <item>
+        <title>
+          5.1
+        </title>
+
+        <link>
+          http://localhost:1313/5_1/
+        </link>
+
+        <pubDate>
+          Mon, 01 Jan 0001 00:00:00 +0000
+        </pubDate>
+
+        <guid>
+          http://localhost:1313/5_1/
+        </guid>
+
+        <description>
+          Content for chapter 5
+        </description>
+      </item>
+  </channel>
+</rss>
