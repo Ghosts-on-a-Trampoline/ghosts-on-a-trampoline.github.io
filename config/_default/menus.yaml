@@ -1,0 +1,7 @@
+main:
+  - name: Categories
+    pageRef: /categories
+    weight: 10
+  - name: Tags
+    pageRef: /tags
+    weight: 20

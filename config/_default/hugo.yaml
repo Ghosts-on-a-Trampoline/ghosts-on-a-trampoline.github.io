@@ -2,34 +2,8 @@ baseURL: https://ghostsonatrampoline.net/
 languageCode: en-us
 theme: hugo-PolyRhythmic
 enableEmoji: true 
-minify: 
-  minifyOutput: true
 title: Ghosts on a Trampoline
 Description: GOAT description
-
 copyright: <!--Creative Commons License-->This site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).<!--/Creative Commons License-->
-
 enableRobotsTXT: true
 enableGitInfo: true
-
-markup:
-  highlight:
-    lineNos: true
-
-menus:
-  main:
-    - name: Categories
-      pageRef: /categories
-      weight: 10
-    - name: Tags
-      pageRef: /tags
-      weight: 20
-params:
-  home:
-    title: Ghosts on a Trampoline
-    tagline: Ghosts on a Trampoline
-    blurb: | 
-      Ghosts on a Trampoline
-  mainSections:
-    section: Section
-
