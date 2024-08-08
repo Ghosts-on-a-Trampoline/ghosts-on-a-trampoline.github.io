@@ -3,5 +3,9 @@ home:
   tagline: Ghosts on a Trampoline
   blurb: | 
     Ghosts on a Trampoline
+
 mainSections:
   section: Section
+
+assets:
+  favicon: 'sitelogo.svg'
