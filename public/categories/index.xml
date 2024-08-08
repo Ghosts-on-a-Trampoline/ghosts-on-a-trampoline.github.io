@@ -1,109 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>
-      
-        
-          Categories on 
-        
-        Ghosts on a Trampoline
-      
-    </title>
-    
-    <link>
-      http://localhost:1313/categories/
-    </link>
-
-    <description>
-      Recent content in Categories on Ghosts on a Trampoline
-    </description>
-    
-    <generator>
-      <meta name="generator" content="Hugo 0.131.0">
-    </generator>
-   
-    <language>
-      en-us
-    </language>
-    
-    
-    
-    
-    
-    
-      <copyright>
-        &lt;!--Creative Commons License--&gt;This site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).&lt;!--/Creative Commons License--&gt;
-      </copyright>
-    
-
-    
-      <lastBuildDate>
-        Thu, 08 Aug 2024 13:15:36 -0400
-      </lastBuildDate>
-    
-      <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
-      <item>
-        <title>
-          Showcase
-        </title>
-
-        <link>
-          http://localhost:1313/categories/showcase/
-        </link>
-
-        <pubDate>
-          Thu, 08 Aug 2024 09:04:19 -0400
-        </pubDate>
-
-        <guid>
-          http://localhost:1313/categories/showcase/
-        </guid>
-
-        <description>
-          
-        </description>
-      </item>
-      <item>
-        <title>
-          Artists
-        </title>
-
-        <link>
-          http://localhost:1313/categories/artists/
-        </link>
-
-        <pubDate>
-          Wed, 07 Aug 2024 19:12:19 -0400
-        </pubDate>
-
-        <guid>
-          http://localhost:1313/categories/artists/
-        </guid>
-
-        <description>
-          
-        </description>
-      </item>
-      <item>
-        <title>
-          Albums
-        </title>
-
-        <link>
-          http://localhost:1313/categories/albums/
-        </link>
-
-        <pubDate>
-          Wed, 07 Aug 2024 19:07:37 -0400
-        </pubDate>
-
-        <guid>
-          http://localhost:1313/categories/albums/
-        </guid>
-
-        <description>
-          
-        </description>
-      </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on
+Ghosts on a Trampoline</title><link>
+https://ghostsonatrampoline.net/categories/</link><description>
+Recent content in Categories on Ghosts on a Trampoline</description><generator><meta name="generator" content="Hugo 0.131.0"/><language>
+en-us</language><copyright>
+&lt;!--Creative Commons License-->This site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).&lt;!--/Creative Commons License--></copyright><lastBuildDate>
+Thu, 08 Aug 2024 13:15:36 -0400</lastBuildDate><atom:link href="https://ghostsonatrampoline.net/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>
+Albums</title><link>
+https://ghostsonatrampoline.net/categories/albums/</link><pubDate>
+Wed, 07 Aug 2024 19:07:37 -0400</pubDate><guid>
+https://ghostsonatrampoline.net/categories/albums/</guid><description/></item><item><title>
+Showcase</title><link>
+https://ghostsonatrampoline.net/categories/showcase/</link><pubDate>
+Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>
+https://ghostsonatrampoline.net/categories/showcase/</guid><description/></item></channel></rss>

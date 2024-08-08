@@ -5,6 +5,13 @@ tags:
   -  
 categories: 
   - albums
+artists: 
+  - Ghosts on a Trampoline
+  - Jangus Won
+  - LetEmKno
+  - Bars Mitsvah
+  - Griff Graff
+  - Jazzonmar
 --- 
   
 Provide an awesome introduction here 

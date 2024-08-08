@@ -1,357 +1,40 @@
-
-  
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>
-      
-        
-        Ghosts on a Trampoline
-      
-    </title>
-    
-    <link>
-      http://localhost:1313/
-    </link>
-
-    <description>
-      Recent content on Ghosts on a Trampoline
-    </description>
-    
-    <generator>
-      <meta name="generator" content="Hugo 0.131.0">
-    </generator>
-   
-    <language>
-      en-us
-    </language>
-    
-    
-    
-    
-    
-    
-      <copyright>
-        &lt;!--Creative Commons License--&gt;This site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).&lt;!--/Creative Commons License--&gt;
-      </copyright>
-    
-
-    
-      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-      <item>
-        <title>
-          Appendix D
-        </title>
-
-        <link>
-          http://localhost:1313/appendix-d/
-        </link>
-
-        <pubDate>
-          Thu, 08 Aug 2024 09:04:19 -0400
-        </pubDate>
-
-        <guid>
-          http://localhost:1313/appendix-d/
-        </guid>
-
-        <description>
-          &lt;p&gt;Provide an awesome introduction here&lt;/p&gt;
-        </description>
-      </item>
-      <item>
-        <title>
-          Images
-        </title>
-
-        <link>
-          http://localhost:1313/images/
-        </link>
-
-        <pubDate>
-          Wed, 07 Aug 2024 19:40:00 -0400
-        </pubDate>
-
-        <guid>
-          http://localhost:1313/images/
-        </guid>
-
-        <description>
-          &lt;p&gt;Provide an awesome introduction here&lt;/p&gt;
-        </description>
-      </item>
-      <item>
-        <title>
-          Bars Mitsvah
-        </title>
-
-        <link>
-          http://localhost:1313/bars-mitsvah/
-        </link>
-
-        <pubDate>
-          Wed, 07 Aug 2024 19:12:19 -0400
-        </pubDate>
-
-        <guid>
-          http://localhost:1313/bars-mitsvah/
-        </guid>
-
-        <description>
-          &lt;p&gt;Provide an awesome introduction here&lt;/p&gt;
-        </description>
-      </item>
-      <item>
-        <title>
-          LetEmKno
-        </title>
-
-        <link>
-          http://localhost:1313/letemkno/
-        </link>
-
-        <pubDate>
-          Wed, 07 Aug 2024 19:12:03 -0400
-        </pubDate>
-
-        <guid>
-          http://localhost:1313/letemkno/
-        </guid>
-
-        <description>
-          &lt;p&gt;Provide an awesome introduction here&lt;/p&gt;
-        </description>
-      </item>
-      <item>
-        <title>
-          Jangus Won
-        </title>
-
-        <link>
-          http://localhost:1313/jangus-won/
-        </link>
-
-        <pubDate>
-          Wed, 07 Aug 2024 19:11:55 -0400
-        </pubDate>
-
-        <guid>
-          http://localhost:1313/jangus-won/
-        </guid>
-
-        <description>
-          &lt;p&gt;Provide an awesome introduction here&lt;/p&gt;
-        </description>
-      </item>
-      <item>
-        <title>
-          What Is Life but a Bucket of Ghosts
-        </title>
-
-        <link>
-          http://localhost:1313/what-is-life-but-a-bucket-of-ghosts/
-        </link>
-
-        <pubDate>
-          Wed, 07 Aug 2024 19:07:37 -0400
-        </pubDate>
-
-        <guid>
-          http://localhost:1313/what-is-life-but-a-bucket-of-ghosts/
-        </guid>
-
-        <description>
-          &lt;p&gt;Provide an awesome introduction here&lt;/p&gt;
-        </description>
-      </item>
-      <item>
-        <title>
-          Noisy Poltergeists
-        </title>
-
-        <link>
-          http://localhost:1313/noisy-poltergeists/
-        </link>
-
-        <pubDate>
-          Wed, 07 Aug 2024 18:59:38 -0400
-        </pubDate>
-
-        <guid>
-          http://localhost:1313/noisy-poltergeists/
-        </guid>
-
-        <description>
-          &lt;p&gt;Provide an awesome introduction here&lt;/p&gt;
-        </description>
-      </item>
-      <item>
-        <title>
-          Drunk Phantom
-        </title>
-
-        <link>
-          http://localhost:1313/drunk-phantom/
-        </link>
-
-        <pubDate>
-          Wed, 07 Aug 2024 18:43:55 -0400
-        </pubDate>
-
-        <guid>
-          http://localhost:1313/drunk-phantom/
-        </guid>
-
-        <description>
-          &lt;p&gt;Provide an awesome introduction here&lt;/p&gt;
-        </description>
-      </item>
-      <item>
-        <title>
-          Branch → Leaf 1
-        </title>
-
-        <link>
-          http://localhost:1313/branchbundle/leaf1/
-        </link>
-
-        <pubDate>
-          Mon, 01 Jan 0001 00:00:00 +0000
-        </pubDate>
-
-        <guid>
-          http://localhost:1313/branchbundle/leaf1/
-        </guid>
-
-        <description>
-          
-        </description>
-      </item>
-      <item>
-        <title>
-          Branch → Leaf 2
-        </title>
-
-        <link>
-          http://localhost:1313/branchbundle/leaf2/
-        </link>
-
-        <pubDate>
-          Mon, 01 Jan 0001 00:00:00 +0000
-        </pubDate>
-
-        <guid>
-          http://localhost:1313/branchbundle/leaf2/
-        </guid>
-
-        <description>
-          
-        </description>
-      </item>
-      <item>
-        <title>
-          Chapter 4
-        </title>
-
-        <link>
-          http://localhost:1313/chapter-4/
-        </link>
-
-        <pubDate>
-          Mon, 01 Jan 0001 00:00:00 +0000
-        </pubDate>
-
-        <guid>
-          http://localhost:1313/chapter-4/
-        </guid>
-
-        <description>
-          Heading 1&#xD;link&#xD;h1&#xD;Heading 2&#xD;link&#xD;h2&#xD;Heading 3&#xD;link&#xD;h3&#xD;Heading 4&#xD;link&#xD;h4&#xD;Heading 5&#xD;link&#xD;h5&#xD;Heading 6&#xD;link&#xD;h6&#xD;H1&#xD;link&#xD;h1&#xD;H2&#xD;link&#xD;h2&#xD;H3&#xD;link&#xD;h2&#xD;H4&#xD;link&#xD;h2&#xD;H5&#xD;link&#xD;h2&#xD;H6&#xD;link&#xD;h2&#xD;A blob of text&#xA;Lorem ipsum shednvustm&#xA;More than two line breaks&#xA;The next content&#xA;Single line break The next content&#xA;Normal line break&#xA;The next content
-        </description>
-      </item>
-      <item>
-        <title>
-          Chapter 5
-        </title>
-
-        <link>
-          http://localhost:1313/chapter-5/
-        </link>
-
-        <pubDate>
-          Mon, 01 Jan 0001 00:00:00 +0000
-        </pubDate>
-
-        <guid>
-          http://localhost:1313/chapter-5/
-        </guid>
-
-        <description>
-          Content for chapter 5&#xA;Artist artist&#xA;Year 2008 Customer is our number 1 priority. Customer is our number 1 priority. Customer is our number 1 priority. Customer is our number 1 priority. Customer is our number 1 priority. Nothing else.
-        </description>
-      </item>
-      <item>
-        <title>
-          Chapter 6
-        </title>
-
-        <link>
-          http://localhost:1313/chapter-6/
-        </link>
-
-        <pubDate>
-          Mon, 01 Jan 0001 00:00:00 +0000
-        </pubDate>
-
-        <guid>
-          http://localhost:1313/chapter-6/
-        </guid>
-
-        <description>
-          &#xD;Heading 1&#xD;link&#xD;h1&#xD;Heading 2&#xD;link&#xD;h2&#xD;Heading 3&#xD;link&#xD;h3&#xD;Heading 4&#xD;link&#xD;h4&#xD;
-        </description>
-      </item>
-      <item>
-        <title>
-          Page bundle
-        </title>
-
-        <link>
-          http://localhost:1313/pagebundle/
-        </link>
-
-        <pubDate>
-          Mon, 01 Jan 0001 00:00:00 +0000
-        </pubDate>
-
-        <guid>
-          http://localhost:1313/pagebundle/
-        </guid>
-
-        <description>
-          Markdown&#xD;link&#xD;h1&#xD;I am a paragraph in markdown with line wrapping so fit in this width. I am a continuation of the first paragraph as there is no empty line before me.&#xA;I am in the second paragraph.&#xA;I am the third one. Even though there are two line breaks before me, this does not create any newline characters. After me there are two spaces before the newline character.
-        </description>
-      </item>
-      <item>
-        <title>
-          Shortcodes
-        </title>
-
-        <link>
-          http://localhost:1313/shortcodes/
-        </link>
-
-        <pubDate>
-          Mon, 01 Jan 0001 00:00:00 +0000
-        </pubDate>
-
-        <guid>
-          http://localhost:1313/shortcodes/
-        </guid>
-
-        <description>
-          Shortcodes&#xD;link&#xD;h2&#xD;Youtube Highlight 1080 1081 1082 1083 1084 1085 // Enjoy your work if (!tired()) { keepCoding(); } else { drinkCoffee(); } 1080 1081 1082 1083 1084 1085 1086 1087 1088 1089 &amp;lt;!-- Generated Youtube source code for video --&amp;gt; {{&amp;lt; youtube nLAVanlu5js &amp;gt;}} &amp;lt;!-- Output --&amp;gt; &amp;lt;div style=&amp;#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&amp;#34;&amp;gt; &amp;lt;iframe allow=&amp;#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&amp;#34; allowfullscreen=&amp;#34;allowfullscreen&amp;#34; loading=&amp;#34;eager&amp;#34; referrerpolicy=&amp;#34;strict-origin-when-cross-origin&amp;#34; src=&amp;#34;https://www.
-        </description>
-      </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ghosts on a Trampoline</title><link>
+https://ghostsonatrampoline.net/</link><description>
+Recent content on Ghosts on a Trampoline</description><generator><meta name="generator" content="Hugo 0.131.0"/><language>
+en-us</language><copyright>
+&lt;!--Creative Commons License-->This site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).&lt;!--/Creative Commons License--></copyright><atom:link href="https://ghostsonatrampoline.net/index.xml" rel="self" type="application/rss+xml"/><item><title>
+Images</title><link>
+https://ghostsonatrampoline.net/images/</link><pubDate>
+Wed, 07 Aug 2024 19:40:00 -0400</pubDate><guid>
+https://ghostsonatrampoline.net/images/</guid><description>
+&lt;p>Provide an awesome introduction here&lt;/p></description></item><item><title>
+What Is Life but a Bucket of Ghosts</title><link>
+https://ghostsonatrampoline.net/what-is-life-but-a-bucket-of-ghosts/</link><pubDate>
+Wed, 07 Aug 2024 19:07:37 -0400</pubDate><guid>
+https://ghostsonatrampoline.net/what-is-life-but-a-bucket-of-ghosts/</guid><description>
+&lt;p>Provide an awesome introduction here&lt;/p></description></item><item><title>
+Noisy Poltergeists</title><link>
+https://ghostsonatrampoline.net/noisy-poltergeists/</link><pubDate>
+Wed, 07 Aug 2024 18:59:38 -0400</pubDate><guid>
+https://ghostsonatrampoline.net/noisy-poltergeists/</guid><description>
+&lt;p>Provide an awesome introduction here&lt;/p></description></item><item><title>
+Drunk Phantom</title><link>
+https://ghostsonatrampoline.net/drunk-phantom/</link><pubDate>
+Wed, 07 Aug 2024 18:43:55 -0400</pubDate><guid>
+https://ghostsonatrampoline.net/drunk-phantom/</guid><description>
+&lt;p>Provide an awesome introduction here&lt;/p></description></item><item><title>
+Branch → Leaf 1</title><link>
+https://ghostsonatrampoline.net/branchbundle/leaf1/</link><pubDate>
+Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>
+https://ghostsonatrampoline.net/branchbundle/leaf1/</guid><description/></item><item><title>
+Branch → Leaf 2</title><link>
+https://ghostsonatrampoline.net/branchbundle/leaf2/</link><pubDate>
+Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>
+https://ghostsonatrampoline.net/branchbundle/leaf2/</guid><description/></item><item><title>
+Page bundle</title><link>
+https://ghostsonatrampoline.net/pagebundle/</link><pubDate>
+Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>
+https://ghostsonatrampoline.net/pagebundle/</guid><description>
+Markdownlinkh1I am a paragraph in markdown with line wrapping so fit in this width. I am a continuation of the first paragraph as there is no empty line before me.
+I am in the second paragraph.
+I am the third one. Even though there are two line breaks before me, this does not create any newline characters. After me there are two spaces before the newline character.</description></item></channel></rss>

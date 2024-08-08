@@ -1,84 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>
-      
-        
-          Branch Bundle on 
-        
-        Ghosts on a Trampoline
-      
-    </title>
-    
-    <link>
-      http://localhost:1313/branchbundle/
-    </link>
-
-    <description>
-      Recent content in Branch Bundle on Ghosts on a Trampoline
-    </description>
-    
-    <generator>
-      <meta name="generator" content="Hugo 0.131.0">
-    </generator>
-   
-    <language>
-      en-us
-    </language>
-    
-    
-    
-    
-    
-    
-      <copyright>
-        &lt;!--Creative Commons License--&gt;This site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).&lt;!--/Creative Commons License--&gt;
-      </copyright>
-    
-
-    
-      <atom:link href="http://localhost:1313/branchbundle/index.xml" rel="self" type="application/rss+xml" />
-      <item>
-        <title>
-          Branch → Leaf 1
-        </title>
-
-        <link>
-          http://localhost:1313/branchbundle/leaf1/
-        </link>
-
-        <pubDate>
-          Mon, 01 Jan 0001 00:00:00 +0000
-        </pubDate>
-
-        <guid>
-          http://localhost:1313/branchbundle/leaf1/
-        </guid>
-
-        <description>
-          
-        </description>
-      </item>
-      <item>
-        <title>
-          Branch → Leaf 2
-        </title>
-
-        <link>
-          http://localhost:1313/branchbundle/leaf2/
-        </link>
-
-        <pubDate>
-          Mon, 01 Jan 0001 00:00:00 +0000
-        </pubDate>
-
-        <guid>
-          http://localhost:1313/branchbundle/leaf2/
-        </guid>
-
-        <description>
-          
-        </description>
-      </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Branch Bundle on
+Ghosts on a Trampoline</title><link>
+https://ghostsonatrampoline.net/branchbundle/</link><description>
+Recent content in Branch Bundle on Ghosts on a Trampoline</description><generator><meta name="generator" content="Hugo 0.131.0"/><language>
+en-us</language><copyright>
+&lt;!--Creative Commons License-->This site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).&lt;!--/Creative Commons License--></copyright><atom:link href="https://ghostsonatrampoline.net/branchbundle/index.xml" rel="self" type="application/rss+xml"/><item><title>
+Branch → Leaf 1</title><link>
+https://ghostsonatrampoline.net/branchbundle/leaf1/</link><pubDate>
+Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>
+https://ghostsonatrampoline.net/branchbundle/leaf1/</guid><description/></item><item><title>
+Branch → Leaf 2</title><link>
+https://ghostsonatrampoline.net/branchbundle/leaf2/</link><pubDate>
+Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>
+https://ghostsonatrampoline.net/branchbundle/leaf2/</guid><description/></item></channel></rss>
