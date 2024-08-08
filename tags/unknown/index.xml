@@ -31,10 +31,14 @@
     
     
     
+      <copyright>
+        &lt;!--Creative Commons License--&gt;This site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).&lt;!--/Creative Commons License--&gt;
+      </copyright>
+    
 
     
       <lastBuildDate>
-        Wed, 07 Aug 2024 16:38:39 -0400
+        Wed, 07 Aug 2024 18:17:26 -0400
       </lastBuildDate>
     
       <atom:link href="http://localhost:1313/tags/unknown/index.xml" rel="self" type="application/rss+xml" />
@@ -57,48 +61,6 @@
 
         <description>
           &lt;p&gt;a subfolder archetype&lt;/p&gt;&#xA;&lt;p&gt;Provide an awesome introduction here&lt;/p&gt;
-        </description>
-      </item>
-      <item>
-        <title>
-          Song
-        </title>
-
-        <link>
-          http://localhost:1313/album/song/
-        </link>
-
-        <pubDate>
-          Wed, 07 Aug 2024 16:35:36 -0400
-        </pubDate>
-
-        <guid>
-          http://localhost:1313/album/song/
-        </guid>
-
-        <description>
-          &lt;p&gt;FOR An Album&lt;/p&gt;&#xA;&lt;p&gt;Provide an awesome introduction here&lt;/p&gt;
-        </description>
-      </item>
-      <item>
-        <title>
-          Songs
-        </title>
-
-        <link>
-          http://localhost:1313/songs/
-        </link>
-
-        <pubDate>
-          Wed, 07 Aug 2024 16:30:35 -0400
-        </pubDate>
-
-        <guid>
-          http://localhost:1313/songs/
-        </guid>
-
-        <description>
-          &lt;p&gt;Provide an awesome introduction here&lt;/p&gt;
         </description>
       </item>
   </channel>
