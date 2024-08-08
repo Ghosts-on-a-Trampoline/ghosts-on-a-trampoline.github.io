@@ -11,4 +11,11 @@ https://ghostsonatrampoline.net/branchbundle/leaf1/</guid><description/></item><
 Branch → Leaf 2</title><link>
 https://ghostsonatrampoline.net/branchbundle/leaf2/</link><pubDate>
 Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>
-https://ghostsonatrampoline.net/branchbundle/leaf2/</guid><description/></item></channel></rss>
+https://ghostsonatrampoline.net/branchbundle/leaf2/</guid><description/></item><item><title>
+Page bundle</title><link>
+https://ghostsonatrampoline.net/pagebundle/</link><pubDate>
+Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>
+https://ghostsonatrampoline.net/pagebundle/</guid><description>
+Markdown link h1 I am a paragraph in markdown with line wrapping so fit in this width. I am a continuation of the first paragraph as there is no empty line before me.
+I am in the second paragraph.
+I am the third one. Even though there are two line breaks before me, this does not create any newline characters. After me there are two spaces before the newline character.</description></item></channel></rss>
