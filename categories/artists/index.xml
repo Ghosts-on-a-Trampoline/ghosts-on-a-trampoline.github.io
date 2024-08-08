@@ -1,22 +1,109 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Artists on
-Ghosts on a Trampoline</title><link>
-https://ghostsonatrampoline.net/categories/artists/</link><description>
-Recent content in Artists on Ghosts on a Trampoline</description><generator><meta name="generator" content="Hugo 0.131.0"/><language>
-en-us</language><copyright>
-&lt;!--Creative Commons License-->This site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).&lt;!--/Creative Commons License--></copyright><lastBuildDate>
-Thu, 08 Aug 2024 13:15:36 -0400</lastBuildDate><atom:link href="https://ghostsonatrampoline.net/categories/artists/index.xml" rel="self" type="application/rss+xml"/><item><title>
-Bars Mitsvah</title><link>
-https://ghostsonatrampoline.net/bars-mitsvah/</link><pubDate>
-Wed, 07 Aug 2024 19:12:19 -0400</pubDate><guid>
-https://ghostsonatrampoline.net/bars-mitsvah/</guid><description>
-&lt;p>Provide an awesome introduction here&lt;/p></description></item><item><title>
-LetEmKno</title><link>
-https://ghostsonatrampoline.net/letemkno/</link><pubDate>
-Wed, 07 Aug 2024 19:12:03 -0400</pubDate><guid>
-https://ghostsonatrampoline.net/letemkno/</guid><description>
-&lt;p>Provide an awesome introduction here&lt;/p></description></item><item><title>
-Jangus Won</title><link>
-https://ghostsonatrampoline.net/jangus-won/</link><pubDate>
-Wed, 07 Aug 2024 19:11:55 -0400</pubDate><guid>
-https://ghostsonatrampoline.net/jangus-won/</guid><description>
-&lt;p>Provide an awesome introduction here&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>
+      
+        
+          Artists on 
+        
+        Ghosts on a Trampoline
+      
+    </title>
+    
+    <link>
+      http://localhost:1313/categories/artists/
+    </link>
+
+    <description>
+      Recent content in Artists on Ghosts on a Trampoline
+    </description>
+    
+    <generator>
+      <meta name="generator" content="Hugo 0.131.0">
+    </generator>
+   
+    <language>
+      en-us
+    </language>
+    
+    
+    
+    
+    
+    
+      <copyright>
+        &lt;!--Creative Commons License--&gt;This site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).&lt;!--/Creative Commons License--&gt;
+      </copyright>
+    
+
+    
+      <lastBuildDate>
+        Thu, 08 Aug 2024 13:15:36 -0400
+      </lastBuildDate>
+    
+      <atom:link href="http://localhost:1313/categories/artists/index.xml" rel="self" type="application/rss+xml" />
+      <item>
+        <title>
+          Bars Mitsvah
+        </title>
+
+        <link>
+          http://localhost:1313/bars-mitsvah/
+        </link>
+
+        <pubDate>
+          Wed, 07 Aug 2024 19:12:19 -0400
+        </pubDate>
+
+        <guid>
+          http://localhost:1313/bars-mitsvah/
+        </guid>
+
+        <description>
+          &lt;p&gt;Provide an awesome introduction here&lt;/p&gt;
+        </description>
+      </item>
+      <item>
+        <title>
+          LetEmKno
+        </title>
+
+        <link>
+          http://localhost:1313/letemkno/
+        </link>
+
+        <pubDate>
+          Wed, 07 Aug 2024 19:12:03 -0400
+        </pubDate>
+
+        <guid>
+          http://localhost:1313/letemkno/
+        </guid>
+
+        <description>
+          &lt;p&gt;Provide an awesome introduction here&lt;/p&gt;
+        </description>
+      </item>
+      <item>
+        <title>
+          Jangus Won
+        </title>
+
+        <link>
+          http://localhost:1313/jangus-won/
+        </link>
+
+        <pubDate>
+          Wed, 07 Aug 2024 19:11:55 -0400
+        </pubDate>
+
+        <guid>
+          http://localhost:1313/jangus-won/
+        </guid>
+
+        <description>
+          &lt;p&gt;Provide an awesome introduction here&lt;/p&gt;
+        </description>
+      </item>
+  </channel>
+</rss>
