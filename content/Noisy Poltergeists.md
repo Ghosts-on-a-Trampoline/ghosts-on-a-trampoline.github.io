@@ -1,7 +1,6 @@
 --- 
 date: 2024-08-07T18:59:38-04:00 
 title: "Noisy Poltergeists" 
-draft: true 
 tags: 
   -  
 categories: 

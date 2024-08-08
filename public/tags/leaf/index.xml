@@ -19,7 +19,7 @@
     </description>
     
     <generator>
-      <meta name="generator" content="Hugo 0.127.0">
+      <meta name="generator" content="Hugo 0.131.0">
     </generator>
    
     <language>
@@ -78,6 +78,27 @@
 
         <description>
           
+        </description>
+      </item>
+      <item>
+        <title>
+          Page bundle
+        </title>
+
+        <link>
+          http://localhost:1313/pagebundle/
+        </link>
+
+        <pubDate>
+          Mon, 01 Jan 0001 00:00:00 +0000
+        </pubDate>
+
+        <guid>
+          http://localhost:1313/pagebundle/
+        </guid>
+
+        <description>
+          Markdown&#xD;link&#xD;h1&#xD;I am a paragraph in markdown with line wrapping so fit in this width. I am a continuation of the first paragraph as there is no empty line before me.&#xA;I am in the second paragraph.&#xA;I am the third one. Even though there are two line breaks before me, this does not create any newline characters. After me there are two spaces before the newline character.
         </description>
       </item>
   </channel>

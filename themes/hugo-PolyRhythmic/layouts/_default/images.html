@@ -10,13 +10,11 @@
         src="{{ .RelPermalink }}"/>
     </div>
 
-    <p>
-      <br><hr><br>
-    </p>
+    <p><br><hr><br></p>
 
     {{ $image := . }}
-    {{ $processed := $image.Resize "200x200" }}
-    <h4>Resize "200x200"</h4>
+    {{ $processed := $image.Resize "250x150" }}
+    <h4>Resize "250x150"</h4>
     <p>Width: {{$processed.Width}}, Height: {{$processed.Height}}</p>
     <div>
       <img
@@ -25,13 +23,11 @@
         src="{{ $processed.RelPermalink }}"/>
     </div>
 
-    <p>
-      <br><hr><br>
-    </p>
+    <p><br><hr><br></p>
 
     {{ $image := . }}
-    {{ $processed := $image.Resize "200x200 webp" }}
-    <h4>Resize "200x200 webp"</h4>
+    {{ $processed := $image.Resize "250x150 webp" }}
+    <h4>Resize "250x150 webp"</h4>
     <p>Width: {{$processed.Width}}, Height: {{$processed.Height}}</p>
     <div>
       <img
@@ -40,13 +36,11 @@
         src="{{ $processed.RelPermalink }}"/>
     </div>
 
-    <p>
-      <br><hr><br>
-    </p>
+    <p><br><hr><br></p>
 
     {{ $image := . }}
-    {{ $processed := $image.Resize "200x" }}
-    <h4>Resize "200x"</h4>
+    {{ $processed := $image.Resize "250x" }}
+    <h4>Resize "250x"</h4>
     <p>Width: {{$processed.Width}}, Height: {{$processed.Height}}</p>
     <div>
       <img
@@ -55,13 +49,11 @@
         src="{{ $processed.RelPermalink }}"/>
     </div>
 
-    <p>
-      <br><hr><br>
-    </p>
+    <p><br><hr><br></p>
 
     {{ $image := . }}
-    {{ $processed := $image.Resize "x200" }}
-    <h4>Resize "x200"</h4>
+    {{ $processed := $image.Resize "x150" }}
+    <h4>Resize "x150"</h4>
     <p>Width: {{$processed.Width}}, Height: {{$processed.Height}}</p>
     <div>
       <img
@@ -70,13 +62,11 @@
         src="{{ $processed.RelPermalink }}"/>
     </div>
 
-    <p>
-      <br><hr><br>
-    </p>
+    <p><br><hr><br></p>
 
     {{ $image := . }}
-    {{ $processed := $image.Fit "200x200" }}
-    <h4>Fit "200x200"</h4>
+    {{ $processed := $image.Fit "250x150" }}
+    <h4>Fit "250x150"</h4>
     <p>Width: {{$processed.Width}}, Height: {{$processed.Height}}</p>
     <div>
       <img
@@ -85,13 +75,11 @@
         src="{{ $processed.RelPermalink }}"/>
     </div>
 
-    <p>
-      <br><hr><br>
-    </p>
+    <p><br><hr><br></p>
 
     {{ $image := . }}
-    {{ $processed := $image.Fill "200x200" }}
-    <h4>Fill "200x200"</h4>
+    {{ $processed := $image.Fill "250x150" }}
+    <h4>Fill "250x150"</h4>
     <p>Width: {{$processed.Width}}, Height: {{$processed.Height}}</p>
     <div>
       <img
@@ -100,13 +88,11 @@
         src="{{ $processed.RelPermalink }}"/>
     </div>
 
-    <p>
-      <br><hr><br>
-    </p>
+    <p><br><hr><br></p>
 
     {{ $image := . }}
-    {{ $processed := $image.Fill "200x200 left" }}
-    <h4>Fill "200x200 left"</h4>
+    {{ $processed := $image.Fill "250x150 left" }}
+    <h4>Fill "250x150 left"</h4>
     <p>Width: {{$processed.Width}}, Height: {{$processed.Height}}</p>
     <div>
       <img
@@ -115,13 +101,11 @@
         src="{{ $processed.RelPermalink }}"/>
     </div>
 
-    <p>
-      <br><hr><br>
-    </p>
+    <p><br><hr><br></p>
 
     {{ $image := . }}
-    {{ $processed := $image.Fill "200x200 right" }}
-    <h4>Fill "200x200 right"</h4>
+    {{ $processed := $image.Fill "250x150 right" }}
+    <h4>Fill "250x150 right"</h4>
     <p>Width: {{$processed.Width}}, Height: {{$processed.Height}}</p>
     <div>
       <img
@@ -130,13 +114,11 @@
         src="{{ $processed.RelPermalink }}"/>
     </div>
 
-    <p>
-      <br><hr><br>
-    </p>
+    <p><br><hr><br></p>
 
     {{ $image := . }}
-    {{ $processed := $image.Fill "200x200 smart" }}
-    <h4>Fill "200x200 smart"</h4>
+    {{ $processed := $image.Fill "250x150 smart" }}
+    <h4>Fill "250x150 smart"</h4>
     <p>Width: {{$processed.Width}}, Height: {{$processed.Height}}</p>
     <div>
       <img
@@ -145,9 +127,242 @@
         src="{{ $processed.RelPermalink }}"/>
     </div>
       
-    <p>
-      <br><hr><br>
-    </p>
+    <p><br><hr><br></p>
+
+    {{ $image := . }}
+    {{ $processed := $image.Fill "250x150 top" }}
+    <h4>Fill "250x150 top"</h4>
+    <p>Width: {{$processed.Width}}, Height: {{$processed.Height}}</p>
+    <div>
+      <img
+        alt="{{ .Title }}"
+        loading="lazy"
+        src="{{ $processed.RelPermalink }}"/>
+    </div>
+      
+    <p><br><hr><br></p>
+
+    {{ $image := . }}
+    {{ $processed := $image.Fill "250x150 bottom" }}
+    <h4>Fill "250x150 bottom"</h4>
+    <p>Width: {{$processed.Width}}, Height: {{$processed.Height}}</p>
+    <div>
+      <img
+        alt="{{ .Title }}"
+        loading="lazy"
+        src="{{ $processed.RelPermalink }}"/>
+    </div>
+      
+    <p><br><hr><br></p>
+
+    {{ $image := . }}
+    {{ $processed := $image.Fill "250x150 center" }}
+    <h4>Fill "250x150 center"</h4>
+    <p>Width: {{$processed.Width}}, Height: {{$processed.Height}}</p>
+    <div>
+      <img
+        alt="{{ .Title }}"
+        loading="lazy"
+        src="{{ $processed.RelPermalink }}"/>
+    </div>
+      
+    <p><br><hr><br></p>
+
+    {{ $image := . }}
+    {{ $processed := $image.Resize "250x" | images.Filter 
+      (images.Brightness "-40") }}
+    <h4>(images.Brightness "-40")</h4>
+    <p>Width: {{$processed.Width}}, Height: {{$processed.Height}}</p>
+    <div>
+      <img
+        alt="{{ .Title }}"
+        loading="lazy"
+        src="{{ $processed.RelPermalink }}"/>
+    </div>
+      
+    <p><br><hr><br></p>
+
+    {{ $image := . }}
+    {{ $processed := $image.Resize "250x" | images.Filter 
+      (images.ColorBalance 100 200 300) }}
+    <h4>(images.ColorBalance 100 200 300)</h4>
+    <p>Width: {{$processed.Width}}, Height: {{$processed.Height}}</p>
+    <div>
+      <img
+        alt="{{ .Title }}"
+        loading="lazy"
+        src="{{ $processed.RelPermalink }}"/>
+    </div>
+      
+    <p><br><hr><br></p>
+
+    {{ $image := . }}
+    {{ $processed := $image.Resize "250x" | images.Filter 
+      (images.Colorize 200 100 50) }}
+    <h4>(images.Colorize 200 100 50)</h4>
+    <p>Width: {{$processed.Width}}, Height: {{$processed.Height}}</p>
+    <div>
+      <img
+        alt="{{ .Title }}"
+        loading="lazy"
+        src="{{ $processed.RelPermalink }}"/>
+    </div>
+      
+    <p><br><hr><br></p>
+
+    {{ $image := . }}
+    {{ $processed := $image.Resize "250x" | images.Filter 
+      (images.Contrast 60) }}
+    <h4>(images.Contrast 60)</h4>
+    <p>Width: {{$processed.Width}}, Height: {{$processed.Height}}</p>
+    <div>
+      <img
+        alt="{{ .Title }}"
+        loading="lazy"
+        src="{{ $processed.RelPermalink }}"/>
+    </div>
+      
+    <p><br><hr><br></p>
+
+    {{ $image := . }}
+    {{ $processed := $image.Resize "250x" | images.Filter 
+      (images.Gamma 3) }}
+    <h4>(images.Gamma 3)</h4>
+    <p>Width: {{$processed.Width}}, Height: {{$processed.Height}}</p>
+    <div>
+      <img
+        alt="{{ .Title }}"
+        loading="lazy"
+        src="{{ $processed.RelPermalink }}"/>
+    </div>
+      
+    <p><br><hr><br></p>
+
+    {{ $image := . }}
+    {{ $processed := $image.Resize "250x" | images.Filter 
+      (images.Grayscale) }}
+    <h4>(images.Grayscale)</h4>
+    <p>Width: {{$processed.Width}}, Height: {{$processed.Height}}</p>
+    <div>
+      <img
+        alt="{{ .Title }}"
+        loading="lazy"
+        src="{{ $processed.RelPermalink }}"/>
+    </div>
+      
+    <p><br><hr><br></p>
+
+    {{ $image := . }}
+    {{ $processed := $image.Resize "250x" | images.Filter 
+      (images.Invert) }}
+    <h4>(images.Invert)</h4>
+    <p>Width: {{$processed.Width}}, Height: {{$processed.Height}}</p>
+    <div>
+      <img
+        alt="{{ .Title }}"
+        loading="lazy"
+        src="{{ $processed.RelPermalink }}"/>
+    </div>
+      
+    <p><br><hr><br></p>
+
+    {{ $image := . }}
+    {{ $processed := $image.Resize "250x" | images.Filter 
+      (images.GaussianBlur 5) }}
+    <h4>(images.GaussianBlur 5)</h4>
+    <p>Width: {{$processed.Width}}, Height: {{$processed.Height}}</p>
+    <div>
+      <img
+        alt="{{ .Title }}"
+        loading="lazy"
+        src="{{ $processed.RelPermalink }}"/>
+    </div>
+      
+    <p><br><hr><br></p>
+
+    {{ $image := . }}
+    {{ $processed := $image.Resize "250x" | images.Filter 
+      (images.Hue 100) }}
+    <h4>(images.Hue 100)</h4>
+    <p>Width: {{$processed.Width}}, Height: {{$processed.Height}}</p>
+    <div>
+      <img
+        alt="{{ .Title }}"
+        loading="lazy"
+        src="{{ $processed.RelPermalink }}"/>
+    </div>
+      
+    <p><br><hr><br></p>
+
+    {{ $image := . }}
+    {{ $processed := $image.Resize "250x" | images.Filter 
+      (images.Pixelate 5) }}
+    <h4>(images.Pixelate 5)</h4>
+    <p>Width: {{$processed.Width}}, Height: {{$processed.Height}}</p>
+    <div>
+      <img
+        alt="{{ .Title }}"
+        loading="lazy"
+        src="{{ $processed.RelPermalink }}"/>
+    </div>
+      
+    <p><br><hr><br></p>
+
+    {{ $image := . }}
+    {{ $processed := $image.Resize "250x" | images.Filter 
+      (images.Saturation 80) }}
+    <h4>(images.Saturation 80)</h4>
+    <p>Width: {{$processed.Width}}, Height: {{$processed.Height}}</p>
+    <div>
+      <img
+        alt="{{ .Title }}"
+        loading="lazy"
+        src="{{ $processed.RelPermalink }}"/>
+    </div>
+      
+    <p><br><hr><br></p>
+
+    {{ $image := . }}
+    {{ $processed := $image.Resize "250x" | images.Filter 
+      (images.Sepia 200) }}
+    <h4>(images.Sepia 200)</h4>
+    <p>Width: {{$processed.Width}}, Height: {{$processed.Height}}</p>
+    <div>
+      <img
+        alt="{{ .Title }}"
+        loading="lazy"
+        src="{{ $processed.RelPermalink }}"/>
+    </div>
+      
+    <p><br><hr><br></p>
+
+    {{ $image := . }}
+    {{ $processed := $image.Resize "250x" | images.Filter 
+      (images.Sigmoid 20 10) }}
+    <h4>(images.Sigmoid 20 10)</h4>
+    <p>Width: {{$processed.Width}}, Height: {{$processed.Height}}</p>
+    <div>
+      <img
+        alt="{{ .Title }}"
+        loading="lazy"
+        src="{{ $processed.RelPermalink }}"/>
+    </div>
+      
+    <p><br><hr><br></p>
+
+    {{ $image := . }}
+    {{ $processed := $image.Resize "250x" | images.Filter 
+      (images.UnsharpMask 40 1.2 0.5) }}
+    <h4>(images.UnsharpMask 40 1.2 0.5)</h4>
+    <p>Width: {{$processed.Width}}, Height: {{$processed.Height}}</p>
+    <div>
+      <img
+        alt="{{ .Title }}"
+        loading="lazy"
+        src="{{ $processed.RelPermalink }}"/>
+    </div>
+      
+    <p><br><hr><br></p>
 
   {{ end }}
 {{ end }}

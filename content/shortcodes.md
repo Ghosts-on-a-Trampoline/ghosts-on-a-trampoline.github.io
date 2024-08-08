@@ -1,6 +1,7 @@
 ---
 title: Shortcodes
 categories: Showcase
+draft: true
 ---
 ## Shortcodes
 

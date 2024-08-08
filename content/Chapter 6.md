@@ -4,6 +4,7 @@ description: "Chapter 6 description"
 layout: "chapter6"
 subtitle: "chapter 6"
 categories: showcase
+draft: true 
 ---
 
 # Heading 1

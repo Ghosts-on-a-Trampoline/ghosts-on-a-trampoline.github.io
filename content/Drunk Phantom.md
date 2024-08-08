@@ -1,7 +1,6 @@
 --- 
 date: 2024-08-07T18:43:55-04:00 
 title: "Drunk Phantom" 
-draft: true 
 categories: 
 - albums
 --- 

@@ -40,13 +40,15 @@
 
   <section>
     <h2>All pages</h2>
-    {{ range .Pages }}
+    {{ range $index, $page := site.Pages }} 
       <p>
-        <a href="{{ .Permalink }}">
-          {{ .Title }}
+        {{$index}}. 
+        <a href="{{$page.Permalink}}">
+          {{$page.Title}} 
         </a>
+        @ {{site.Title}} 
       </p>
-    {{ end }}
+    {{ end }} 
   </section>
 </article>
 {{- end -}}

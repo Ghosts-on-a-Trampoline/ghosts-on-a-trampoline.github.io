@@ -2,76 +2,75 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/images/</loc>
-    <lastmod>2024-08-07T19:40:00-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/artists/</loc>
-    <lastmod>2024-08-07T19:12:19-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/bars-mitsvah/</loc>
-    <lastmod>2024-08-07T19:12:19-04:00</lastmod>
+    <loc>http://localhost:1313/appendix-d/</loc>
+    <lastmod>2024-08-08T09:04:19-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-08-07T19:12:19-04:00</lastmod>
+    <lastmod>2024-08-08T09:04:19-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/showcase/</loc>
+    <lastmod>2024-08-08T09:04:19-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/images/</loc>
+    <lastmod>2024-08-07T20:35:45-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/artists/</loc>
+    <lastmod>2024-08-07T20:35:45-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bars-mitsvah/</loc>
+    <lastmod>2024-08-07T20:35:45-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/letemkno/</loc>
-    <lastmod>2024-08-07T19:12:03-04:00</lastmod>
+    <lastmod>2024-08-07T20:35:45-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/jangus-won/</loc>
-    <lastmod>2024-08-07T19:11:55-04:00</lastmod>
+    <lastmod>2024-08-07T20:35:45-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/albums/</loc>
-    <lastmod>2024-08-07T19:07:37-04:00</lastmod>
+    <lastmod>2024-08-07T20:35:45-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/what-is-life-but-a-bucket-of-ghosts/</loc>
-    <lastmod>2024-08-07T19:07:37-04:00</lastmod>
+    <lastmod>2024-08-07T20:35:45-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/noisy-poltergeists/</loc>
-    <lastmod>2024-08-07T18:59:38-04:00</lastmod>
+    <lastmod>2024-08-07T20:35:45-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/drunk-phantom/</loc>
-    <lastmod>2024-08-07T18:43:55-04:00</lastmod>
+    <lastmod>2024-08-07T20:35:45-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
     <lastmod>2024-08-07T18:17:26-04:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/branch/</loc>
+    <lastmod>2024-08-07T15:13:15-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/branchbundle/leaf1/</loc>
+    <lastmod>2024-08-07T20:35:45-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/branchbundle/leaf2/</loc>
+    <lastmod>2024-08-07T20:35:45-04:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/branchbundle/</loc>
     <lastmod>2024-08-07T15:13:15-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/areas/</loc>
-  </url><url>
-    <loc>http://localhost:1313/branchbundle/leaf1/</loc>
-    <lastmod>2024-08-07T15:13:15-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/branchbundle/leaf2/</loc>
-    <lastmod>2024-08-07T15:13:15-04:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/chapter-4/</loc>
+    <lastmod>2024-08-07T20:35:45-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/chapter-5/</loc>
-    <lastmod>2024-08-07T18:17:26-04:00</lastmod>
+    <lastmod>2024-08-07T20:35:45-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/chapter-6/</loc>
-    <lastmod>2024-08-07T18:17:26-04:00</lastmod>
+    <lastmod>2024-08-07T20:35:45-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/leaf/</loc>
-    <lastmod>2024-08-07T15:13:15-04:00</lastmod>
+    <lastmod>2024-08-07T20:35:45-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>http://localhost:1313/pagebundle/</loc>
   </url><url>
     <loc>http://localhost:1313/shortcodes/</loc>
-    <lastmod>2024-08-07T15:13:15-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/showcase/</loc>
-    <lastmod>2024-08-07T18:17:26-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/solo-leaf/</loc>
-    <lastmod>2024-08-07T15:13:15-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/content2/</loc>
-    <lastmod>2024-08-07T15:13:15-04:00</lastmod>
+    <lastmod>2024-08-07T20:35:45-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-08-07T15:13:15-04:00</lastmod>
+    <lastmod>2024-08-07T20:35:45-04:00</lastmod>
   </url>
 </urlset>

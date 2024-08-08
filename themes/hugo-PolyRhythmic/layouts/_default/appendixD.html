@@ -1,0 +1,79 @@
+{{ define "main" }}
+<p>A HTML comment</p>
+<!-- A HTML comment. Renders unless stripped during minify -->
+<p>A Hugo comment</p>
+{{/* A Hugo comment. Does not render at all */}}
+<p>A HTML comment with a Hugo template within</p>
+<!-- Even though its result might be commented, {{.}} is still executed -->
+
+<h5>site</h5>
+<p>{{ site }}</p>
+
+<h5>site.Title</h5>
+<p>{{ site.Title }}</p>
+
+<h5>.Page</h5>
+<p>{{ .Page }}</p>
+
+<h5>.Page.Summary</h5>
+<p>{{ .Page.Summary }}</p>
+
+<h5>.Page.ReadingTime</h5>
+<p>{{ .Page.ReadingTime }}</p>
+
+<h5>.Page.NextInSection</h5>
+<p>{{ .Page.NextInSection }}</p>
+
+<h5>.Page.Next</h5>
+<p>{{ .Page.Next }}</p>
+
+<h5>.File</h5>
+<p>{{ .File }}</p>
+
+<h5>.GitInfo</h5>
+<p>{{ .GitInfo }}</p>
+
+{{ $scratch := newScratch }} 
+
+{{ $scratch.Set "message" "Hello" }} 
+
+<p>Scratch: {{ $scratch }}</p>
+
+<p>Getter: {{ $scratch.Get "message" }}</p>
+
+{{ $scratch.Add "message" " World" }} 
+
+<p>Updated: {{$scratch.Get "message"}}</p>
+
+Boolean Functions 
+<p>5 > 3 : {{lt 5 3}}</p>
+<p>5 < 3 : {{gt 5 3}}</p>
+<p>5 ≥ 3 : {{ge 5 3}}</p>
+<p>5 ≤ 3 : {{le 5 3}}</p>
+<p>5 = 3 : {{eq 5 3}}</p>
+<p>5 ≠ 3 : {{ne 5 3}}</p>
+  
+Logical Functions 
+<p>true and false : {{and true false}}</p>
+<p>true or false : {{or true false}}</p>
+<p>not true : {{not true}}</p>
+  
+Arithmetic Functions 
+<p>2 + 3 : {{add 2 3}}</p> 
+<p>2 - 3 : {{sub 2 3}}</p> 
+<p>2 x 3 : {{mul 2 3}}</p> 
+<p>2 ÷ 3 : {{div 2 3}}</p>         
+<p>2 ÷ 3 : {{div 2.0 3}}</p>          
+<p>2 % 3 : {{mod 2 3}}</p> 
+<p>2 % 3? : {{modBool 2 3}}</p>
+
+Nested Functions 
+<p>5/(2 + (3 x 2.0)) : {{div 5 (add 2 (mul 3 2.0))}}</p>
+  
+Piped Functions 
+<p>5/(2 + (3 x 2.0)) : {{mul 3 2.0 | add 2 | div 5}}</p>
+  
+Nested + Piped Hybrid 
+<p>5/(2 + (3 x 2.0)) : {{div 5 (mul 3 2.0 | add 2)}}</p>
+
+{{ end }}

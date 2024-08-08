@@ -19,7 +19,7 @@
     </description>
     
     <generator>
-      <meta name="generator" content="Hugo 0.127.0">
+      <meta name="generator" content="Hugo 0.131.0">
     </generator>
    
     <language>
@@ -38,7 +38,7 @@
 
     
       <lastBuildDate>
-        Wed, 07 Aug 2024 19:07:37 -0400
+        Wed, 07 Aug 2024 20:35:45 -0400
       </lastBuildDate>
     
       <atom:link href="http://localhost:1313/categories/albums/index.xml" rel="self" type="application/rss+xml" />
