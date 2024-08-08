@@ -1,3 +1,7 @@
+---
+title: Shortcodes
+categories: Showcase
+---
 ## Shortcodes
 
 *Youtube*

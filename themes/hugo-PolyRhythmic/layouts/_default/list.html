@@ -18,7 +18,8 @@
                 {{ else if eq .Title "Components" }} settings 
                 {{ else if eq .Title "Layouts" }} view_quilt 
                 {{ else if eq .Title "References" }} bookmark_border 
-                {{ else if eq .Title "Tokens" }} token 
+                {{ else if eq .Title "Tokens" }} token
+                {{ else }} note
               {{ end }}
             </i>
           </span>
@@ -27,7 +28,7 @@
             <span class="headline"> {{ .Title }} </span>
           </div>
 
-          <div class="trailing-supporting-text">{{len .Pages }} {{ $.Title }}</div>
+          <div class="trailing-supporting-text">{{len .Pages }} {{ .Title }}</div>
         </a>
         <hr class="divider" />
       {{ end }}

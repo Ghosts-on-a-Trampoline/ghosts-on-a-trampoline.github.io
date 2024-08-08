@@ -3,7 +3,13 @@ languageCode: en-us
 title: Ghosts on a Trampoline
 theme: hugo-PolyRhythmic
 enableEmoji: true 
-minify: true
+minify: 
+  minifyOutput: true
+
+copyright: <!--Creative Commons License-->This site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).<!--/Creative Commons License-->
+
+enableRobotsTXT: true
+enableGitInfo: true
 
 markup:
   highlight:
@@ -11,11 +17,12 @@ markup:
 
 menus:
   main:
-    - name: Section
-      pageRef: /section
-    - name: Subsection
-      pageRef: /section/subsection
-
+    - name: Categories
+      pageRef: /categories
+      weight: 10
+    - name: Tags
+      pageRef: /tags
+      weight: 20
 params:
   home:
     title: Ghosts on a Trampoline

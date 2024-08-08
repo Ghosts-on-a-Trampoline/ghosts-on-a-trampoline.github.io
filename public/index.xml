@@ -31,70 +31,28 @@
     
     
     
-
+      <copyright>
+        &lt;!--Creative Commons License--&gt;This site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).&lt;!--/Creative Commons License--&gt;
+      </copyright>
     
-      <lastBuildDate>
-        Wed, 07 Aug 2024 16:38:39 -0400
-      </lastBuildDate>
+
     
       <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
       <item>
         <title>
-          Song
+          Images
         </title>
 
         <link>
-          http://localhost:1313/subarchetype/song/
+          http://localhost:1313/images/
         </link>
 
         <pubDate>
-          Wed, 07 Aug 2024 16:38:39 -0400
+          Wed, 07 Aug 2024 19:40:00 -0400
         </pubDate>
 
         <guid>
-          http://localhost:1313/subarchetype/song/
-        </guid>
-
-        <description>
-          &lt;p&gt;a subfolder archetype&lt;/p&gt;&#xA;&lt;p&gt;Provide an awesome introduction here&lt;/p&gt;
-        </description>
-      </item>
-      <item>
-        <title>
-          Song
-        </title>
-
-        <link>
-          http://localhost:1313/album/song/
-        </link>
-
-        <pubDate>
-          Wed, 07 Aug 2024 16:35:36 -0400
-        </pubDate>
-
-        <guid>
-          http://localhost:1313/album/song/
-        </guid>
-
-        <description>
-          &lt;p&gt;FOR An Album&lt;/p&gt;&#xA;&lt;p&gt;Provide an awesome introduction here&lt;/p&gt;
-        </description>
-      </item>
-      <item>
-        <title>
-          Songs
-        </title>
-
-        <link>
-          http://localhost:1313/songs/
-        </link>
-
-        <pubDate>
-          Wed, 07 Aug 2024 16:30:35 -0400
-        </pubDate>
-
-        <guid>
-          http://localhost:1313/songs/
+          http://localhost:1313/images/
         </guid>
 
         <description>
@@ -103,28 +61,133 @@
       </item>
       <item>
         <title>
-          Albums
+          Bars Mitsvah
         </title>
 
         <link>
-          http://localhost:1313/albums/
+          http://localhost:1313/bars-mitsvah/
         </link>
 
         <pubDate>
-          Wed, 07 Aug 2024 10:17:38 -0400
+          Wed, 07 Aug 2024 19:12:19 -0400
         </pubDate>
 
         <guid>
-          http://localhost:1313/albums/
+          http://localhost:1313/bars-mitsvah/
         </guid>
 
         <description>
-          
+          &lt;p&gt;Provide an awesome introduction here&lt;/p&gt;
         </description>
       </item>
       <item>
         <title>
-          
+          LetEmKno
+        </title>
+
+        <link>
+          http://localhost:1313/letemkno/
+        </link>
+
+        <pubDate>
+          Wed, 07 Aug 2024 19:12:03 -0400
+        </pubDate>
+
+        <guid>
+          http://localhost:1313/letemkno/
+        </guid>
+
+        <description>
+          &lt;p&gt;Provide an awesome introduction here&lt;/p&gt;
+        </description>
+      </item>
+      <item>
+        <title>
+          Jangus Won
+        </title>
+
+        <link>
+          http://localhost:1313/jangus-won/
+        </link>
+
+        <pubDate>
+          Wed, 07 Aug 2024 19:11:55 -0400
+        </pubDate>
+
+        <guid>
+          http://localhost:1313/jangus-won/
+        </guid>
+
+        <description>
+          &lt;p&gt;Provide an awesome introduction here&lt;/p&gt;
+        </description>
+      </item>
+      <item>
+        <title>
+          What Is Life but a Bucket of Ghosts
+        </title>
+
+        <link>
+          http://localhost:1313/what-is-life-but-a-bucket-of-ghosts/
+        </link>
+
+        <pubDate>
+          Wed, 07 Aug 2024 19:07:37 -0400
+        </pubDate>
+
+        <guid>
+          http://localhost:1313/what-is-life-but-a-bucket-of-ghosts/
+        </guid>
+
+        <description>
+          &lt;p&gt;Provide an awesome introduction here&lt;/p&gt;
+        </description>
+      </item>
+      <item>
+        <title>
+          Noisy Poltergeists
+        </title>
+
+        <link>
+          http://localhost:1313/noisy-poltergeists/
+        </link>
+
+        <pubDate>
+          Wed, 07 Aug 2024 18:59:38 -0400
+        </pubDate>
+
+        <guid>
+          http://localhost:1313/noisy-poltergeists/
+        </guid>
+
+        <description>
+          &lt;p&gt;Provide an awesome introduction here&lt;/p&gt;
+        </description>
+      </item>
+      <item>
+        <title>
+          Drunk Phantom
+        </title>
+
+        <link>
+          http://localhost:1313/drunk-phantom/
+        </link>
+
+        <pubDate>
+          Wed, 07 Aug 2024 18:43:55 -0400
+        </pubDate>
+
+        <guid>
+          http://localhost:1313/drunk-phantom/
+        </guid>
+
+        <description>
+          &lt;p&gt;Provide an awesome introduction here&lt;/p&gt;
+        </description>
+      </item>
+      <item>
+        <title>
+          Branch → Leaf 1
         </title>
 
         <link>
@@ -145,7 +208,7 @@
       </item>
       <item>
         <title>
-          
+          Branch → Leaf 2
         </title>
 
         <link>
@@ -166,11 +229,11 @@
       </item>
       <item>
         <title>
-          
+          Chapter 4
         </title>
 
         <link>
-          http://localhost:1313/content/
+          http://localhost:1313/chapter-4/
         </link>
 
         <pubDate>
@@ -178,53 +241,11 @@
         </pubDate>
 
         <guid>
-          http://localhost:1313/content/
+          http://localhost:1313/chapter-4/
         </guid>
 
         <description>
           Heading 1&#xD;link&#xD;h1&#xD;Heading 2&#xD;link&#xD;h2&#xD;Heading 3&#xD;link&#xD;h3&#xD;Heading 4&#xD;link&#xD;h4&#xD;Heading 5&#xD;link&#xD;h5&#xD;Heading 6&#xD;link&#xD;h6&#xD;H1&#xD;link&#xD;h1&#xD;H2&#xD;link&#xD;h2&#xD;H3&#xD;link&#xD;h2&#xD;H4&#xD;link&#xD;h2&#xD;H5&#xD;link&#xD;h2&#xD;H6&#xD;link&#xD;h2&#xD;A blob of text&#xA;Lorem ipsum shednvustm&#xA;More than two line breaks&#xA;The next content&#xA;Single line break The next content&#xA;Normal line break&#xA;The next content
-        </description>
-      </item>
-      <item>
-        <title>
-          
-        </title>
-
-        <link>
-          http://localhost:1313/content2/
-        </link>
-
-        <pubDate>
-          Mon, 01 Jan 0001 00:00:00 +0000
-        </pubDate>
-
-        <guid>
-          http://localhost:1313/content2/
-        </guid>
-
-        <description>
-          Markdown&#xD;link&#xD;h1&#xD;I am a paragraph in markdown with line wrapping so fit in this width. I am a continuation of the first paragraph as there is no empty line before me.&#xA;I am in the second paragraph.&#xA;I am the third one. Even though there are two line breaks before me, this does not create any newline characters. After me there are two spaces before the newline character.
-        </description>
-      </item>
-      <item>
-        <title>
-          
-        </title>
-
-        <link>
-          http://localhost:1313/shortcodes/
-        </link>
-
-        <pubDate>
-          Mon, 01 Jan 0001 00:00:00 +0000
-        </pubDate>
-
-        <guid>
-          http://localhost:1313/shortcodes/
-        </guid>
-
-        <description>
-          Shortcodes&#xD;link&#xD;h2&#xD;Youtube Highlight 1080 1081 1082 1083 1084 1085 // Enjoy your work if (!tired()) { keepCoding(); } else { drinkCoffee(); } 1080 1081 1082 1083 1084 1085 1086 1087 1088 1089 &amp;lt;!-- Generated Youtube source code for video --&amp;gt; {{&amp;lt; youtube nLAVanlu5js &amp;gt;}} &amp;lt;!-- Output --&amp;gt; &amp;lt;div style=&amp;#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&amp;#34;&amp;gt; &amp;lt;iframe allow=&amp;#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&amp;#34; allowfullscreen=&amp;#34;allowfullscreen&amp;#34; loading=&amp;#34;eager&amp;#34; referrerpolicy=&amp;#34;strict-origin-when-cross-origin&amp;#34; src=&amp;#34;https://www.
         </description>
       </item>
       <item>
@@ -266,7 +287,49 @@
         </guid>
 
         <description>
-          
+          &#xD;Heading 1&#xD;link&#xD;h1&#xD;Heading 2&#xD;link&#xD;h2&#xD;Heading 3&#xD;link&#xD;h3&#xD;Heading 4&#xD;link&#xD;h4&#xD;
+        </description>
+      </item>
+      <item>
+        <title>
+          Shortcodes
+        </title>
+
+        <link>
+          http://localhost:1313/shortcodes/
+        </link>
+
+        <pubDate>
+          Mon, 01 Jan 0001 00:00:00 +0000
+        </pubDate>
+
+        <guid>
+          http://localhost:1313/shortcodes/
+        </guid>
+
+        <description>
+          Shortcodes&#xD;link&#xD;h2&#xD;Youtube Highlight 1080 1081 1082 1083 1084 1085 // Enjoy your work if (!tired()) { keepCoding(); } else { drinkCoffee(); } 1080 1081 1082 1083 1084 1085 1086 1087 1088 1089 &amp;lt;!-- Generated Youtube source code for video --&amp;gt; {{&amp;lt; youtube nLAVanlu5js &amp;gt;}} &amp;lt;!-- Output --&amp;gt; &amp;lt;div style=&amp;#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&amp;#34;&amp;gt; &amp;lt;iframe allow=&amp;#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&amp;#34; allowfullscreen=&amp;#34;allowfullscreen&amp;#34; loading=&amp;#34;eager&amp;#34; referrerpolicy=&amp;#34;strict-origin-when-cross-origin&amp;#34; src=&amp;#34;https://www.
+        </description>
+      </item>
+      <item>
+        <title>
+          Solo leaf bundle
+        </title>
+
+        <link>
+          http://localhost:1313/content2/
+        </link>
+
+        <pubDate>
+          Mon, 01 Jan 0001 00:00:00 +0000
+        </pubDate>
+
+        <guid>
+          http://localhost:1313/content2/
+        </guid>
+
+        <description>
+          Markdown&#xD;link&#xD;h1&#xD;I am a paragraph in markdown with line wrapping so fit in this width. I am a continuation of the first paragraph as there is no empty line before me.&#xA;I am in the second paragraph.&#xA;I am the third one. Even though there are two line breaks before me, this does not create any newline characters. After me there are two spaces before the newline character.
         </description>
       </item>
   </channel>

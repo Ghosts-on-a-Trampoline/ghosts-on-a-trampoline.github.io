@@ -3,6 +3,7 @@ title: "Chapter 5"
 description: "Chapter 5 description"
 layout: "chapter5"
 subtitle: "chapter 5"
+categories: showcase
 ---
 Content for chapter 5
 

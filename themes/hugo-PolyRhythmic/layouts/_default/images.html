@@ -1,0 +1,153 @@
+{{ define "main" }}
+  <h1>Image Processing Examples</h1>
+  {{ range (resources.ByType "image") }}
+    <h3>Original Image:</h3>
+    <p>Width: {{ .Width }}, Height: {{ .Height }}</p>
+    <div>
+      <img
+        alt="{{ .Title }}"
+        loading="lazy"
+        src="{{ .RelPermalink }}"/>
+    </div>
+
+    <p>
+      <br><hr><br>
+    </p>
+
+    {{ $image := . }}
+    {{ $processed := $image.Resize "200x200" }}
+    <h4>Resize "200x200"</h4>
+    <p>Width: {{$processed.Width}}, Height: {{$processed.Height}}</p>
+    <div>
+      <img
+        alt="{{ .Title }}"
+        loading="lazy"
+        src="{{ $processed.RelPermalink }}"/>
+    </div>
+
+    <p>
+      <br><hr><br>
+    </p>
+
+    {{ $image := . }}
+    {{ $processed := $image.Resize "200x200 webp" }}
+    <h4>Resize "200x200 webp"</h4>
+    <p>Width: {{$processed.Width}}, Height: {{$processed.Height}}</p>
+    <div>
+      <img
+        alt="{{ .Title }}"
+        loading="lazy"
+        src="{{ $processed.RelPermalink }}"/>
+    </div>
+
+    <p>
+      <br><hr><br>
+    </p>
+
+    {{ $image := . }}
+    {{ $processed := $image.Resize "200x" }}
+    <h4>Resize "200x"</h4>
+    <p>Width: {{$processed.Width}}, Height: {{$processed.Height}}</p>
+    <div>
+      <img
+        alt="{{ .Title }}"
+        loading="lazy"
+        src="{{ $processed.RelPermalink }}"/>
+    </div>
+
+    <p>
+      <br><hr><br>
+    </p>
+
+    {{ $image := . }}
+    {{ $processed := $image.Resize "x200" }}
+    <h4>Resize "x200"</h4>
+    <p>Width: {{$processed.Width}}, Height: {{$processed.Height}}</p>
+    <div>
+      <img
+        alt="{{ .Title }}"
+        loading="lazy"
+        src="{{ $processed.RelPermalink }}"/>
+    </div>
+
+    <p>
+      <br><hr><br>
+    </p>
+
+    {{ $image := . }}
+    {{ $processed := $image.Fit "200x200" }}
+    <h4>Fit "200x200"</h4>
+    <p>Width: {{$processed.Width}}, Height: {{$processed.Height}}</p>
+    <div>
+      <img
+        alt="{{ .Title }}"
+        loading="lazy"
+        src="{{ $processed.RelPermalink }}"/>
+    </div>
+
+    <p>
+      <br><hr><br>
+    </p>
+
+    {{ $image := . }}
+    {{ $processed := $image.Fill "200x200" }}
+    <h4>Fill "200x200"</h4>
+    <p>Width: {{$processed.Width}}, Height: {{$processed.Height}}</p>
+    <div>
+      <img
+        alt="{{ .Title }}"
+        loading="lazy"
+        src="{{ $processed.RelPermalink }}"/>
+    </div>
+
+    <p>
+      <br><hr><br>
+    </p>
+
+    {{ $image := . }}
+    {{ $processed := $image.Fill "200x200 left" }}
+    <h4>Fill "200x200 left"</h4>
+    <p>Width: {{$processed.Width}}, Height: {{$processed.Height}}</p>
+    <div>
+      <img
+        alt="{{ .Title }}"
+        loading="lazy"
+        src="{{ $processed.RelPermalink }}"/>
+    </div>
+
+    <p>
+      <br><hr><br>
+    </p>
+
+    {{ $image := . }}
+    {{ $processed := $image.Fill "200x200 right" }}
+    <h4>Fill "200x200 right"</h4>
+    <p>Width: {{$processed.Width}}, Height: {{$processed.Height}}</p>
+    <div>
+      <img
+        alt="{{ .Title }}"
+        loading="lazy"
+        src="{{ $processed.RelPermalink }}"/>
+    </div>
+
+    <p>
+      <br><hr><br>
+    </p>
+
+    {{ $image := . }}
+    {{ $processed := $image.Fill "200x200 smart" }}
+    <h4>Fill "200x200 smart"</h4>
+    <p>Width: {{$processed.Width}}, Height: {{$processed.Height}}</p>
+    <div>
+      <img
+        alt="{{ .Title }}"
+        loading="lazy"
+        src="{{ $processed.RelPermalink }}"/>
+    </div>
+      
+    <p>
+      <br><hr><br>
+    </p>
+
+  {{ end }}
+{{ end }}

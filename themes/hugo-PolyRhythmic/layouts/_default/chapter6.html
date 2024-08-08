@@ -1,5 +1,13 @@
 {{ define "main" }}
+
 <section>
-  
+  <h4>.Summary</h4>
+  <p>{{ .Summary }}</p>
+
+  <h4>.TableOfContents</h4>
+  <p>{{ .TableOfContents }}</p>
 </section>
+
+{{ .Content }}
+
 {{ end }}

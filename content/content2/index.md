@@ -1,5 +1,6 @@
 ---
-categories: "leaf bundle"
+title: Solo leaf bundle
+categories: showcase
 tags: "solo leaf"
 ---
 
